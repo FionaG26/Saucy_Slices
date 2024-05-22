@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'saucy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME':'saucy_slices_db',
         'USER': 'pythonqueen',
         'PASSWORD': 'Fiona',

@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from pizza.models import Pizza
+from pizzas.models import Pizza
 
 class Order(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
